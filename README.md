@@ -1,2 +1,2 @@
 # cinema4d-scripts
-Cinema 4D - My Scripts (Python, Xpresso, Coffee Script)
+Cinema 4D - Useful scripts with scene setup (Python, Xpresso, Coffee Script)
