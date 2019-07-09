@@ -1,0 +1,7 @@
+plugin.cpp
+enigne\irrlicht\IrrlichtLoad.cpp
+enigne\irrlicht\IrrlichtLoad.h
+enigne\irrlicht\IrrlichtThread.cpp
+enigne\irrlicht\IrrlichtThread.h
+enigne\irrlicht\IrrlichtViewer.cpp
+enigne\irrlicht\IrrlichtViewer.h
