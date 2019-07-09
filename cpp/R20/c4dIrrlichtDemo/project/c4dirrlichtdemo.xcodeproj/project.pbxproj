@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05FCB2E7F024C790D010000 /* IrrlichtLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05FCB2E7F024C790D000000 /* IrrlichtLoad.cpp */; };
+		A05FCB2E7F3534E2DC010000 /* plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05FCB2E7F3534E2DC000000 /* plugin.cpp */; };
+		A05FCB2E7F6542540E010000 /* libmesh_misc.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05FCB2E7F6542540E000000 /* libmesh_misc.framework.a */; };
+		A05FCB2E7F8A3C2298010000 /* libmath.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05FCB2E7F8A3C2298000000 /* libmath.framework.a */; };
+		A05FCB2E7F9D811BB9010000 /* IrrlichtViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05FCB2E7F9D811BB9000000 /* IrrlichtViewer.cpp */; };
+		A05FCB2E7FA7503BB1010000 /* IrrlichtThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05FCB2E7FA7503BB1000000 /* IrrlichtThread.cpp */; };
+		A05FCB2E7FBC4C136C010000 /* libpython.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05FCB2E7FBC4C136C000000 /* libpython.framework.a */; };
+		A05FCB2E7FD93CCD9F010000 /* register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05FCB2E7FD93CCD9F000000 /* register.cpp */; };
+		A05FCB2E7FEBA5917E010000 /* libcrypt.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05FCB2E7FEBA5917E000000 /* libcrypt.framework.a */; };
+		A05FCB2E7FF470FF41010000 /* libcinema.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05FCB2E7FF470FF41000000 /* libcinema.framework.a */; };
+		A05FCB2E7FF4AB3A6F010000 /* libcore.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05FCB2E7FF4AB3A6F000000 /* libcore.framework.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05FCB2E7F6542540E040000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7F6542540E020000 /* mesh_misc.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA36542540E7B0000;
+			remoteInfo = mesh_misc.framework;
+		};
+		A05FCB2E7F6542540E040100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7F6542540E020000 /* mesh_misc.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA36542540E7B0100;
+			remoteInfo = "mesh_misc.framework static library";
+		};
+		A05FCB2E7F6542540E050000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7F6542540E020000 /* mesh_misc.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA36542540E000000;
+			remoteInfo = mesh_misc.framework;
+		};
+		A05FCB2E7F8A3C2298040000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7F8A3C2298020000 /* math.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA38A3C22987B0000;
+			remoteInfo = math.framework;
+		};
+		A05FCB2E7F8A3C2298040100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7F8A3C2298020000 /* math.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA38A3C22987B0100;
+			remoteInfo = "math.framework static library";
+		};
+		A05FCB2E7F8A3C2298050000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7F8A3C2298020000 /* math.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA38A3C2298000000;
+			remoteInfo = math.framework;
+		};
+		A05FCB2E7FBC4C136C040000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FBC4C136C020000 /* python.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3BC4C136C7B0000;
+			remoteInfo = python.framework;
+		};
+		A05FCB2E7FBC4C136C040100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FBC4C136C020000 /* python.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3BC4C136C7B0100;
+			remoteInfo = "python.framework static library";
+		};
+		A05FCB2E7FBC4C136C050000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FBC4C136C020000 /* python.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA3BC4C136C000000;
+			remoteInfo = python.framework;
+		};
+		A05FCB2E7FEBA5917E040000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FEBA5917E020000 /* crypt.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3EBA5917E7B0000;
+			remoteInfo = crypt.framework;
+		};
+		A05FCB2E7FEBA5917E040100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FEBA5917E020000 /* crypt.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3EBA5917E7B0100;
+			remoteInfo = "crypt.framework static library";
+		};
+		A05FCB2E7FEBA5917E050000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FEBA5917E020000 /* crypt.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA3EBA5917E000000;
+			remoteInfo = crypt.framework;
+		};
+		A05FCB2E7FF470FF41040000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FF470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0000;
+			remoteInfo = cinema.framework;
+		};
+		A05FCB2E7FF470FF41040100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FF470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0100;
+			remoteInfo = "cinema.framework static library";
+		};
+		A05FCB2E7FF470FF41050000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FF470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA3F470FF41000000;
+			remoteInfo = cinema.framework;
+		};
+		A05FCB2E7FF4AB3A6F040000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FF4AB3A6F020000 /* core.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F4AB3A6F7B0000;
+			remoteInfo = core.framework;
+		};
+		A05FCB2E7FF4AB3A6F040100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FF4AB3A6F020000 /* core.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F4AB3A6F7B0100;
+			remoteInfo = "core.framework static library";
+		};
+		A05FCB2E7FF4AB3A6F050000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05FCB2E7FF4AB3A6F020000 /* core.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA3F4AB3A6F000000;
+			remoteInfo = core.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A05FCB2E7F00000000000000 /* debugbase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debugbase.xcconfig; path = ../../../frameworks/settings/debugbase.xcconfig; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F00000000050000 /* releasebase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = releasebase.xcconfig; path = ../../../frameworks/settings/releasebase.xcconfig; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F00DBF205000000 /* ISceneNodeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneNodeAnimator.h; path = ../externs/irrlicht/1.8.4/include/ISceneNodeAnimator.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0139036C000000 /* IOSOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSOperator.h; path = ../externs/irrlicht/1.8.4/include/IOSOperator.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F024C790D000000 /* IrrlichtLoad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IrrlichtLoad.cpp; path = ../source/enigne/irrlicht/IrrlichtLoad.cpp; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F03DDF2E7000000 /* IReferenceCounted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IReferenceCounted.h; path = ../externs/irrlicht/1.8.4/include/IReferenceCounted.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F050D24A2000000 /* irrlicht.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrlicht.h; path = ../externs/irrlicht/1.8.4/include/irrlicht.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0671CBB3000000 /* aabbox3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aabbox3d.h; path = ../externs/irrlicht/1.8.4/include/aabbox3d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F06A8ACC4000000 /* IGUIToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIToolbar.h; path = ../externs/irrlicht/1.8.4/include/IGUIToolbar.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F06CECDF3000000 /* IVideoDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IVideoDriver.h; path = ../externs/irrlicht/1.8.4/include/IVideoDriver.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0907CD33000000 /* SExposedVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SExposedVideoData.h; path = ../externs/irrlicht/1.8.4/include/SExposedVideoData.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0A458552000000 /* EPrimitiveTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPrimitiveTypes.h; path = ../externs/irrlicht/1.8.4/include/EPrimitiveTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0BF99A69000000 /* ECullingTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECullingTypes.h; path = ../externs/irrlicht/1.8.4/include/ECullingTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0E44E0EF000000 /* IGUIScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIScrollBar.h; path = ../externs/irrlicht/1.8.4/include/IGUIScrollBar.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0EE5B4C2000000 /* CVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVertexBuffer.h; path = ../externs/irrlicht/1.8.4/include/CVertexBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0FE96405000000 /* IGUIElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIElement.h; path = ../externs/irrlicht/1.8.4/include/IGUIElement.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F0FF7F162000000 /* IIndexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IIndexBuffer.h; path = ../externs/irrlicht/1.8.4/include/IIndexBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F102DB946000000 /* EMeshWriterEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMeshWriterEnums.h; path = ../externs/irrlicht/1.8.4/include/EMeshWriterEnums.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F115CDFB6000000 /* IVolumeLightSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IVolumeLightSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IVolumeLightSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F12C9D80A000000 /* IGUIMeshViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIMeshViewer.h; path = ../externs/irrlicht/1.8.4/include/IGUIMeshViewer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F134FA497000000 /* IGUIContextMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIContextMenu.h; path = ../externs/irrlicht/1.8.4/include/IGUIContextMenu.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F13F9435B000000 /* irrAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrAllocator.h; path = ../externs/irrlicht/1.8.4/include/irrAllocator.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F145C1D19000000 /* IEventReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IEventReceiver.h; path = ../externs/irrlicht/1.8.4/include/IEventReceiver.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F15448D2F000000 /* IGPUProgrammingServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGPUProgrammingServices.h; path = ../externs/irrlicht/1.8.4/include/IGPUProgrammingServices.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F16887571000000 /* SceneParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneParameters.h; path = ../externs/irrlicht/1.8.4/include/SceneParameters.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F186ECF63000000 /* ISceneUserDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneUserDataSerializer.h; path = ../externs/irrlicht/1.8.4/include/ISceneUserDataSerializer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F196A4446000000 /* ISceneNodeAnimatorCameraMaya.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneNodeAnimatorCameraMaya.h; path = ../externs/irrlicht/1.8.4/include/ISceneNodeAnimatorCameraMaya.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F1DC0A85E000000 /* IImageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IImageWriter.h; path = ../externs/irrlicht/1.8.4/include/IImageWriter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F1DCC6210000000 /* IParticleGravityAffector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleGravityAffector.h; path = ../externs/irrlicht/1.8.4/include/IParticleGravityAffector.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F1FB29E19000000 /* ISceneNodeAnimatorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneNodeAnimatorFactory.h; path = ../externs/irrlicht/1.8.4/include/ISceneNodeAnimatorFactory.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F218983B3000000 /* IGUITabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUITabControl.h; path = ../externs/irrlicht/1.8.4/include/IGUITabControl.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F21EFDA20000000 /* IParticleRotationAffector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleRotationAffector.h; path = ../externs/irrlicht/1.8.4/include/IParticleRotationAffector.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F283EFF48000000 /* IParticleRingEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleRingEmitter.h; path = ../externs/irrlicht/1.8.4/include/IParticleRingEmitter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F28AED4D4000000 /* EDebugSceneTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDebugSceneTypes.h; path = ../externs/irrlicht/1.8.4/include/EDebugSceneTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F2A0A3248000000 /* IVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IVertexBuffer.h; path = ../externs/irrlicht/1.8.4/include/IVertexBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F2CAFA44E000000 /* IGUITreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUITreeView.h; path = ../externs/irrlicht/1.8.4/include/IGUITreeView.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F2E8F8EFE000000 /* IFileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFileList.h; path = ../externs/irrlicht/1.8.4/include/IFileList.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F31A59F7A000000 /* coreutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coreutil.h; path = ../externs/irrlicht/1.8.4/include/coreutil.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F33E5C324000000 /* IMeshLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMeshLoader.h; path = ../externs/irrlicht/1.8.4/include/IMeshLoader.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3534E2DC000000 /* plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin.cpp; path = ../source/plugin.cpp; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F35D6C505000000 /* EDriverFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDriverFeatures.h; path = ../externs/irrlicht/1.8.4/include/EDriverFeatures.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3673EC32000000 /* triangle3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triangle3d.h; path = ../externs/irrlicht/1.8.4/include/triangle3d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F36A3BEC9000000 /* IParticleAttractionAffector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleAttractionAffector.h; path = ../externs/irrlicht/1.8.4/include/IParticleAttractionAffector.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3A30784E000000 /* matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix4.h; path = ../externs/irrlicht/1.8.4/include/matrix4.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3A9A7EDA000000 /* IGUIFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIFont.h; path = ../externs/irrlicht/1.8.4/include/IGUIFont.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3B726778000000 /* IrrlichtDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IrrlichtDevice.h; path = ../externs/irrlicht/1.8.4/include/IrrlichtDevice.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3C4674AC000000 /* IMaterialRendererServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMaterialRendererServices.h; path = ../externs/irrlicht/1.8.4/include/IMaterialRendererServices.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3C746496000000 /* IFileArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFileArchive.h; path = ../externs/irrlicht/1.8.4/include/IFileArchive.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3DAA382B000000 /* IParticleMeshEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleMeshEmitter.h; path = ../externs/irrlicht/1.8.4/include/IParticleMeshEmitter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3EA4338B000000 /* ITriangleSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITriangleSelector.h; path = ../externs/irrlicht/1.8.4/include/ITriangleSelector.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3EBEC682000000 /* IGUIImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIImageList.h; path = ../externs/irrlicht/1.8.4/include/IGUIImageList.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3EF10022000000 /* IParticleAffector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleAffector.h; path = ../externs/irrlicht/1.8.4/include/IParticleAffector.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F3F5B0045000000 /* IMeshCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMeshCache.h; path = ../externs/irrlicht/1.8.4/include/IMeshCache.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F41F274BC000000 /* IDynamicMeshBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDynamicMeshBuffer.h; path = ../externs/irrlicht/1.8.4/include/IDynamicMeshBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F42039A1D000000 /* ITerrainSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITerrainSceneNode.h; path = ../externs/irrlicht/1.8.4/include/ITerrainSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F42928918000000 /* SSkinMeshBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSkinMeshBuffer.h; path = ../externs/irrlicht/1.8.4/include/SSkinMeshBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F44634974000000 /* ILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILogger.h; path = ../externs/irrlicht/1.8.4/include/ILogger.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F468BE1A2000000 /* IColladaMeshWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IColladaMeshWriter.h; path = ../externs/irrlicht/1.8.4/include/IColladaMeshWriter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F4854ED50000000 /* IMetaTriangleSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMetaTriangleSelector.h; path = ../externs/irrlicht/1.8.4/include/IMetaTriangleSelector.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F4C005274000000 /* IAnimatedMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAnimatedMesh.h; path = ../externs/irrlicht/1.8.4/include/IAnimatedMesh.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F4D42984A000000 /* IGeometryCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGeometryCreator.h; path = ../externs/irrlicht/1.8.4/include/IGeometryCreator.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F508EC488000000 /* IGUISkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUISkin.h; path = ../externs/irrlicht/1.8.4/include/IGUISkin.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F541DF086000000 /* EMaterialTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMaterialTypes.h; path = ../externs/irrlicht/1.8.4/include/EMaterialTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F54431573000000 /* EHardwareBufferFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHardwareBufferFlags.h; path = ../externs/irrlicht/1.8.4/include/EHardwareBufferFlags.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F549B5855000000 /* SMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMaterial.h; path = ../externs/irrlicht/1.8.4/include/SMaterial.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F55347B66000000 /* IGUIStaticText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIStaticText.h; path = ../externs/irrlicht/1.8.4/include/IGUIStaticText.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5578D120000000 /* ISceneNodeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneNodeFactory.h; path = ../externs/irrlicht/1.8.4/include/ISceneNodeFactory.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F56822938000000 /* SIrrCreationParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SIrrCreationParameters.h; path = ../externs/irrlicht/1.8.4/include/SIrrCreationParameters.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F57CD9F84000000 /* IMeshWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMeshWriter.h; path = ../externs/irrlicht/1.8.4/include/IMeshWriter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F58853B14000000 /* EMaterialFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMaterialFlags.h; path = ../externs/irrlicht/1.8.4/include/EMaterialFlags.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5958B71C000000 /* SLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLight.h; path = ../externs/irrlicht/1.8.4/include/SLight.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5A1D11D1000000 /* IMeshSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMeshSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IMeshSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5B07D742000000 /* irrList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrList.h; path = ../externs/irrlicht/1.8.4/include/irrList.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5C27A721000000 /* SMeshBufferLightMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMeshBufferLightMap.h; path = ../externs/irrlicht/1.8.4/include/SMeshBufferLightMap.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5C4C3B2C000000 /* irrMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrMath.h; path = ../externs/irrlicht/1.8.4/include/irrMath.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5CF1E1FB000000 /* IAnimatedMeshMD2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAnimatedMeshMD2.h; path = ../externs/irrlicht/1.8.4/include/IAnimatedMeshMD2.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F5CF1E5BC000000 /* IAnimatedMeshMD3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAnimatedMeshMD3.h; path = ../externs/irrlicht/1.8.4/include/IAnimatedMeshMD3.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F616315FD000000 /* irrpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrpack.h; path = ../externs/irrlicht/1.8.4/include/irrpack.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F618EFA88000000 /* EShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EShaderTypes.h; path = ../externs/irrlicht/1.8.4/include/EShaderTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F61C6AB56000000 /* irrunpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrunpack.h; path = ../externs/irrlicht/1.8.4/include/irrunpack.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F61D08B9A000000 /* IParticleAnimatedMeshSceneNodeEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleAnimatedMeshSceneNodeEmitter.h; path = ../externs/irrlicht/1.8.4/include/IParticleAnimatedMeshSceneNodeEmitter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F623E3462000000 /* IParticleCylinderEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleCylinderEmitter.h; path = ../externs/irrlicht/1.8.4/include/IParticleCylinderEmitter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F64964848000000 /* fast_atof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fast_atof.h; path = ../externs/irrlicht/1.8.4/include/fast_atof.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F64B18E74000000 /* position2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = position2d.h; path = ../externs/irrlicht/1.8.4/include/position2d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F6542540E020000 /* mesh_misc.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mesh_misc.framework.xcodeproj; path = ../../../frameworks/mesh_misc.framework/project/mesh_misc.framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F67F97C19000000 /* IGUIFileOpenDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIFileOpenDialog.h; path = ../externs/irrlicht/1.8.4/include/IGUIFileOpenDialog.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F680917CE000000 /* IMaterialRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMaterialRenderer.h; path = ../externs/irrlicht/1.8.4/include/IMaterialRenderer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F69F634CE000000 /* IShaderConstantSetCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IShaderConstantSetCallBack.h; path = ../externs/irrlicht/1.8.4/include/IShaderConstantSetCallBack.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F6B23D011000000 /* IMeshBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMeshBuffer.h; path = ../externs/irrlicht/1.8.4/include/IMeshBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F6B805300000000 /* Keycodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keycodes.h; path = ../externs/irrlicht/1.8.4/include/Keycodes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F6B8785F4000000 /* SParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SParticle.h; path = ../externs/irrlicht/1.8.4/include/SParticle.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F700D3D58000000 /* IGUIInOutFader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIInOutFader.h; path = ../externs/irrlicht/1.8.4/include/IGUIInOutFader.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F7412D8F3000000 /* ISceneNodeAnimatorCameraFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneNodeAnimatorCameraFPS.h; path = ../externs/irrlicht/1.8.4/include/ISceneNodeAnimatorCameraFPS.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F75B8CBAB000000 /* ITexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITexture.h; path = ../externs/irrlicht/1.8.4/include/ITexture.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F77DF709A000000 /* IXMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IXMLWriter.h; path = ../externs/irrlicht/1.8.4/include/IXMLWriter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F7969E328000000 /* plane3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plane3d.h; path = ../externs/irrlicht/1.8.4/include/plane3d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F7E1E4857000000 /* ICursorControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICursorControl.h; path = ../externs/irrlicht/1.8.4/include/ICursorControl.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F811AB953000000 /* IBillboardSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBillboardSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IBillboardSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F8146254E000000 /* vector2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vector2d.h; path = ../externs/irrlicht/1.8.4/include/vector2d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F814699AD000000 /* vector3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vector3d.h; path = ../externs/irrlicht/1.8.4/include/vector3d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F81A31419000000 /* ICameraSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICameraSceneNode.h; path = ../externs/irrlicht/1.8.4/include/ICameraSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F82F1D7CB000000 /* ESceneNodeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESceneNodeTypes.h; path = ../externs/irrlicht/1.8.4/include/ESceneNodeTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F84717DC5000000 /* ISceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneManager.h; path = ../externs/irrlicht/1.8.4/include/ISceneManager.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F87C75229000000 /* SColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SColor.h; path = ../externs/irrlicht/1.8.4/include/SColor.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F88AD1EA3000000 /* heapsort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heapsort.h; path = ../externs/irrlicht/1.8.4/include/heapsort.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F892198E5000000 /* EDriverTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDriverTypes.h; path = ../externs/irrlicht/1.8.4/include/EDriverTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F89245F23000000 /* S3DVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S3DVertex.h; path = ../externs/irrlicht/1.8.4/include/S3DVertex.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F893C2CED000000 /* IParticleBoxEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleBoxEmitter.h; path = ../externs/irrlicht/1.8.4/include/IParticleBoxEmitter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F8A3C2298020000 /* math.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = math.framework.xcodeproj; path = ../../../frameworks/math.framework/project/math.framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F8A4ED7CE000000 /* IAnimatedMeshSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAnimatedMeshSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IAnimatedMeshSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F8B9C227B000000 /* IAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAttributes.h; path = ../externs/irrlicht/1.8.4/include/IAttributes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F8D8559D7000000 /* ISceneCollisionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneCollisionManager.h; path = ../externs/irrlicht/1.8.4/include/ISceneCollisionManager.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F8DF3DE4B000000 /* IParticleSphereEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleSphereEmitter.h; path = ../externs/irrlicht/1.8.4/include/IParticleSphereEmitter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F90B5509A000000 /* IBoneSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBoneSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IBoneSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F90E13B78000000 /* IParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleEmitter.h; path = ../externs/irrlicht/1.8.4/include/IParticleEmitter.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F93310700000000 /* SSharedMeshBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSharedMeshBuffer.h; path = ../externs/irrlicht/1.8.4/include/SSharedMeshBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F93F4010B000000 /* IAttributeExchangingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAttributeExchangingObject.h; path = ../externs/irrlicht/1.8.4/include/IAttributeExchangingObject.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F9696F214000000 /* IParticleFadeOutAffector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleFadeOutAffector.h; path = ../externs/irrlicht/1.8.4/include/IParticleFadeOutAffector.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F979F46EC000000 /* irrMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrMap.h; path = ../externs/irrlicht/1.8.4/include/irrMap.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F983FAEE7000000 /* irrXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrXML.h; path = ../externs/irrlicht/1.8.4/include/irrXML.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F9B1B7CF6000000 /* IReadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IReadFile.h; path = ../externs/irrlicht/1.8.4/include/IReadFile.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F9D168BCC000000 /* IGUISpriteBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUISpriteBank.h; path = ../externs/irrlicht/1.8.4/include/IGUISpriteBank.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7F9D811BB9000000 /* IrrlichtViewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IrrlichtViewer.cpp; path = ../source/enigne/irrlicht/IrrlichtViewer.cpp; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA0502C12000000 /* IGUISpinBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUISpinBox.h; path = ../externs/irrlicht/1.8.4/include/IGUISpinBox.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA0BA57B0000000 /* IGUIColorSelectDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIColorSelectDialog.h; path = ../externs/irrlicht/1.8.4/include/IGUIColorSelectDialog.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA4313E5F000000 /* IQ3LevelMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQ3LevelMesh.h; path = ../externs/irrlicht/1.8.4/include/IQ3LevelMesh.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA482CA02000000 /* ISceneNodeAnimatorCollisionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneNodeAnimatorCollisionResponse.h; path = ../externs/irrlicht/1.8.4/include/ISceneNodeAnimatorCollisionResponse.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA5C119FB000000 /* IGUIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIWindow.h; path = ../externs/irrlicht/1.8.4/include/IGUIWindow.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA6319CBD000000 /* IGUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIButton.h; path = ../externs/irrlicht/1.8.4/include/IGUIButton.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA70201FE000000 /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = path.h; path = ../externs/irrlicht/1.8.4/include/path.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA7503BB1000000 /* IrrlichtThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IrrlichtThread.cpp; path = ../source/enigne/irrlicht/IrrlichtThread.cpp; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA85008DE000000 /* ISceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneNode.h; path = ../externs/irrlicht/1.8.4/include/ISceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FA8F4EDA2000000 /* driverChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = driverChoice.h; path = ../externs/irrlicht/1.8.4/include/driverChoice.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FAA7E5EB1000000 /* IMeshManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMeshManipulator.h; path = ../externs/irrlicht/1.8.4/include/IMeshManipulator.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FAA9C83FD000000 /* rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rect.h; path = ../externs/irrlicht/1.8.4/include/rect.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FAC32F0CE000000 /* IGUICheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUICheckBox.h; path = ../externs/irrlicht/1.8.4/include/IGUICheckBox.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FADDF40B4000000 /* SVertexIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVertexIndex.h; path = ../externs/irrlicht/1.8.4/include/SVertexIndex.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FAEE64C8C000000 /* EGUIElementTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGUIElementTypes.h; path = ../externs/irrlicht/1.8.4/include/EGUIElementTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FB041134A000000 /* IGUIEditBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIEditBox.h; path = ../externs/irrlicht/1.8.4/include/IGUIEditBox.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FB0B2F705000000 /* IrrCompileConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IrrCompileConfig.h; path = ../externs/irrlicht/1.8.4/include/IrrCompileConfig.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FB24050EA000000 /* IXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IXMLReader.h; path = ../externs/irrlicht/1.8.4/include/IXMLReader.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FB2586D6B000000 /* IImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IImage.h; path = ../externs/irrlicht/1.8.4/include/IImage.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FB3420A64000000 /* IGUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIImage.h; path = ../externs/irrlicht/1.8.4/include/IGUIImage.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FB3CB6DDC000000 /* IGUIEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIEnvironment.h; path = ../externs/irrlicht/1.8.4/include/IGUIEnvironment.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FB53A114B000000 /* SKeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKeyMap.h; path = ../externs/irrlicht/1.8.4/include/SKeyMap.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FBB97D868000000 /* EGUIAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGUIAlignment.h; path = ../externs/irrlicht/1.8.4/include/EGUIAlignment.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FBC42111B000000 /* SMeshBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMeshBuffer.h; path = ../externs/irrlicht/1.8.4/include/SMeshBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FBC4C136C020000 /* python.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = python.framework.xcodeproj; path = ../../../frameworks/python.framework/project/python.framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FBE00EC19000000 /* IGUIElementFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIElementFactory.h; path = ../externs/irrlicht/1.8.4/include/IGUIElementFactory.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FBEA507ED000000 /* ISkinnedMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISkinnedMesh.h; path = ../externs/irrlicht/1.8.4/include/ISkinnedMesh.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FC09E6764000000 /* IShadowVolumeSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IShadowVolumeSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IShadowVolumeSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FC31E0E63000000 /* SViewFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SViewFrustum.h; path = ../externs/irrlicht/1.8.4/include/SViewFrustum.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FC4C537A8000000 /* CIndexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIndexBuffer.h; path = ../externs/irrlicht/1.8.4/include/CIndexBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FC8425949000000 /* irrTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrTypes.h; path = ../externs/irrlicht/1.8.4/include/irrTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FCA10C3EB000000 /* IQ3Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQ3Shader.h; path = ../externs/irrlicht/1.8.4/include/IQ3Shader.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FCA5A6721000000 /* IDummyTransformationSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDummyTransformationSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IDummyTransformationSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FCB088808000000 /* IGUIComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIComboBox.h; path = ../externs/irrlicht/1.8.4/include/IGUIComboBox.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FCCFE1B85000000 /* IRandomizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRandomizer.h; path = ../externs/irrlicht/1.8.4/include/IRandomizer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FCE9278FE000000 /* SAnimatedMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAnimatedMesh.h; path = ../externs/irrlicht/1.8.4/include/SAnimatedMesh.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FCF547B29000000 /* irrArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrArray.h; path = ../externs/irrlicht/1.8.4/include/irrArray.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD095CA52000000 /* IrrlichtLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IrrlichtLoad.h; path = ../source/enigne/irrlicht/IrrlichtLoad.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD0C7DC7B000000 /* ILightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILightManager.h; path = ../externs/irrlicht/1.8.4/include/ILightManager.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD1900877000000 /* EAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAttributes.h; path = ../externs/irrlicht/1.8.4/include/EAttributes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD3491375000000 /* irrString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrString.h; path = ../externs/irrlicht/1.8.4/include/irrString.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD3FFDA91000000 /* ITextSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITextSceneNode.h; path = ../externs/irrlicht/1.8.4/include/ITextSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD411A90B000000 /* CMeshBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMeshBuffer.h; path = ../externs/irrlicht/1.8.4/include/CMeshBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD4276E82000000 /* CDynamicMeshBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDynamicMeshBuffer.h; path = ../externs/irrlicht/1.8.4/include/CDynamicMeshBuffer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD6844D36000000 /* IGUIListBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIListBox.h; path = ../externs/irrlicht/1.8.4/include/IGUIListBox.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD6E2D304000000 /* ESceneNodeAnimatorTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESceneNodeAnimatorTypes.h; path = ../externs/irrlicht/1.8.4/include/ESceneNodeAnimatorTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD6FF7309000000 /* IParticleSystemSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IParticleSystemSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IParticleSystemSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD715B849000000 /* IGUIFontBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUIFontBitmap.h; path = ../externs/irrlicht/1.8.4/include/IGUIFontBitmap.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD93CCD9F000000 /* register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = register.cpp; path = ../generated/hxx/register.cpp; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FD9B6841C000000 /* ILightSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILightSceneNode.h; path = ../externs/irrlicht/1.8.4/include/ILightSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FDA6756B7000000 /* EMessageBoxFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMessageBoxFlags.h; path = ../externs/irrlicht/1.8.4/include/EMessageBoxFlags.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FDA70B990000000 /* SMaterialLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMaterialLayer.h; path = ../externs/irrlicht/1.8.4/include/SMaterialLayer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FDA9F3911000000 /* IMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMesh.h; path = ../externs/irrlicht/1.8.4/include/IMesh.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FDBAB27FE000000 /* IrrlichtViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IrrlichtViewer.h; path = ../source/enigne/irrlicht/IrrlichtViewer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FDE0662F7000000 /* EDeviceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDeviceTypes.h; path = ../externs/irrlicht/1.8.4/include/EDeviceTypes.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FDF8D3B77000000 /* quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quaternion.h; path = ../externs/irrlicht/1.8.4/include/quaternion.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FE3684453000000 /* dimension2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dimension2d.h; path = ../externs/irrlicht/1.8.4/include/dimension2d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FE4BCCC17000000 /* IGUITable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGUITable.h; path = ../externs/irrlicht/1.8.4/include/IGUITable.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FE50FCB69000000 /* SMeshBufferTangents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMeshBufferTangents.h; path = ../externs/irrlicht/1.8.4/include/SMeshBufferTangents.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FE8FDA40C000000 /* IVideoModeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IVideoModeList.h; path = ../externs/irrlicht/1.8.4/include/IVideoModeList.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FEB9D899B000000 /* SMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMesh.h; path = ../externs/irrlicht/1.8.4/include/SMesh.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FEBA5917E020000 /* crypt.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = crypt.framework.xcodeproj; path = ../../../frameworks/crypt.framework/project/crypt.framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FEBD10F3F000000 /* line2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = line2d.h; path = ../externs/irrlicht/1.8.4/include/line2d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FEBD1839E000000 /* line3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = line3d.h; path = ../externs/irrlicht/1.8.4/include/line3d.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FEC31E5F6000000 /* IrrlichtThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IrrlichtThread.h; path = ../source/enigne/irrlicht/IrrlichtThread.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FEE634886000000 /* IBillboardTextSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBillboardTextSceneNode.h; path = ../externs/irrlicht/1.8.4/include/IBillboardTextSceneNode.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FEE8CCECF000000 /* IFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFileSystem.h; path = ../externs/irrlicht/1.8.4/include/IFileSystem.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FF0304700000000 /* ETerrainElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETerrainElements.h; path = ../externs/irrlicht/1.8.4/include/ETerrainElements.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FF0722690000000 /* SVertexManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVertexManipulator.h; path = ../externs/irrlicht/1.8.4/include/SVertexManipulator.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FF211F8D5000000 /* ITimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ITimer.h; path = ../externs/irrlicht/1.8.4/include/ITimer.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FF470FF41020000 /* cinema.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cinema.framework.xcodeproj; path = ../../../frameworks/cinema.framework/project/cinema.framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FF4AB3A6F020000 /* core.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = core.framework.xcodeproj; path = ../../../frameworks/core.framework/project/core.framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FF9D8CBFE000000 /* IImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IImageLoader.h; path = ../externs/irrlicht/1.8.4/include/IImageLoader.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FFE918EEB000000 /* IWriteFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWriteFile.h; path = ../externs/irrlicht/1.8.4/include/IWriteFile.h; sourceTree = SOURCE_ROOT; };
+		A05FCB2E7FFF9B7A2F000000 /* ISceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISceneLoader.h; path = ../externs/irrlicht/1.8.4/include/ISceneLoader.h; sourceTree = SOURCE_ROOT; };
+		A08C5CDEA35FCB2E7F7B0000 /* c4dirrlichtdemo.xlib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = c4dirrlichtdemo.xlib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C5CDEA35FCB2E7F7B0100 /* libc4dirrlichtdemo_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libc4dirrlichtdemo_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05FCB2E7F000000000F0000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05FCB2E7F6542540E010000 /* libmesh_misc.framework.a in Frameworks */,
+				A05FCB2E7F8A3C2298010000 /* libmath.framework.a in Frameworks */,
+				A05FCB2E7FBC4C136C010000 /* libpython.framework.a in Frameworks */,
+				A05FCB2E7FEBA5917E010000 /* libcrypt.framework.a in Frameworks */,
+				A05FCB2E7FF470FF41010000 /* libcinema.framework.a in Frameworks */,
+				A05FCB2E7FF4AB3A6F010000 /* libcore.framework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A05FCB2E7F00000000140000 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7FF470FF41020000 /* cinema.framework.xcodeproj */,
+				A05FCB2E7FF4AB3A6F020000 /* core.framework.xcodeproj */,
+				A05FCB2E7FEBA5917E020000 /* crypt.framework.xcodeproj */,
+				A05FCB2E7F8A3C2298020000 /* math.framework.xcodeproj */,
+				A05FCB2E7F6542540E020000 /* mesh_misc.framework.xcodeproj */,
+				A05FCB2E7FBC4C136C020000 /* python.framework.xcodeproj */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7F00000000190000 /* configurations */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F00000000000000 /* debugbase.xcconfig */,
+				A05FCB2E7F00000000050000 /* releasebase.xcconfig */,
+			);
+			name = configurations;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7F000000001E0000 = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F00000000190000 /* configurations */,
+				A05FCB2E7FB22D34D3000000 /* externs */,
+				A05FCB2E7F111A998F000000 /* generated */,
+				A05FCB2E7F00000000140000 /* libs */,
+				A05FCB2E7F00000000230000 /* products */,
+				A05FCB2E7FCA90681B000000 /* source */,
+			);
+			sourceTree = "<group>";
+		};
+		A05FCB2E7F00000000230000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A08C5CDEA35FCB2E7F7B0000 /* c4dirrlichtdemo.xlib */,
+				A08C5CDEA35FCB2E7F7B0100 /* libc4dirrlichtdemo_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7F0B480FF2000000 /* enigne */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F8BE388C6000000 /* irrlicht */,
+			);
+			name = enigne;
+			path = ../source/enigne;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7F111A998F000000 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F681C2CE8000000 /* hxx */,
+			);
+			name = generated;
+			path = ../generated;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7F390DBF37000000 /* 1.8.4 */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F4BB329D0000000 /* include */,
+			);
+			name = 1.8.4;
+			path = ../externs/irrlicht/1.8.4;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7F4BB329D0000000 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F0671CBB3000000 /* aabbox3d.h */,
+				A05FCB2E7FD4276E82000000 /* CDynamicMeshBuffer.h */,
+				A05FCB2E7FC4C537A8000000 /* CIndexBuffer.h */,
+				A05FCB2E7FD411A90B000000 /* CMeshBuffer.h */,
+				A05FCB2E7F31A59F7A000000 /* coreutil.h */,
+				A05FCB2E7F0EE5B4C2000000 /* CVertexBuffer.h */,
+				A05FCB2E7FE3684453000000 /* dimension2d.h */,
+				A05FCB2E7FA8F4EDA2000000 /* driverChoice.h */,
+				A05FCB2E7FD1900877000000 /* EAttributes.h */,
+				A05FCB2E7F0BF99A69000000 /* ECullingTypes.h */,
+				A05FCB2E7F28AED4D4000000 /* EDebugSceneTypes.h */,
+				A05FCB2E7FDE0662F7000000 /* EDeviceTypes.h */,
+				A05FCB2E7F35D6C505000000 /* EDriverFeatures.h */,
+				A05FCB2E7F892198E5000000 /* EDriverTypes.h */,
+				A05FCB2E7FBB97D868000000 /* EGUIAlignment.h */,
+				A05FCB2E7FAEE64C8C000000 /* EGUIElementTypes.h */,
+				A05FCB2E7F54431573000000 /* EHardwareBufferFlags.h */,
+				A05FCB2E7F58853B14000000 /* EMaterialFlags.h */,
+				A05FCB2E7F541DF086000000 /* EMaterialTypes.h */,
+				A05FCB2E7F102DB946000000 /* EMeshWriterEnums.h */,
+				A05FCB2E7FDA6756B7000000 /* EMessageBoxFlags.h */,
+				A05FCB2E7F0A458552000000 /* EPrimitiveTypes.h */,
+				A05FCB2E7FD6E2D304000000 /* ESceneNodeAnimatorTypes.h */,
+				A05FCB2E7F82F1D7CB000000 /* ESceneNodeTypes.h */,
+				A05FCB2E7F618EFA88000000 /* EShaderTypes.h */,
+				A05FCB2E7FF0304700000000 /* ETerrainElements.h */,
+				A05FCB2E7F64964848000000 /* fast_atof.h */,
+				A05FCB2E7F88AD1EA3000000 /* heapsort.h */,
+				A05FCB2E7F4C005274000000 /* IAnimatedMesh.h */,
+				A05FCB2E7F5CF1E1FB000000 /* IAnimatedMeshMD2.h */,
+				A05FCB2E7F5CF1E5BC000000 /* IAnimatedMeshMD3.h */,
+				A05FCB2E7F8A4ED7CE000000 /* IAnimatedMeshSceneNode.h */,
+				A05FCB2E7F93F4010B000000 /* IAttributeExchangingObject.h */,
+				A05FCB2E7F8B9C227B000000 /* IAttributes.h */,
+				A05FCB2E7F811AB953000000 /* IBillboardSceneNode.h */,
+				A05FCB2E7FEE634886000000 /* IBillboardTextSceneNode.h */,
+				A05FCB2E7F90B5509A000000 /* IBoneSceneNode.h */,
+				A05FCB2E7F81A31419000000 /* ICameraSceneNode.h */,
+				A05FCB2E7F468BE1A2000000 /* IColladaMeshWriter.h */,
+				A05FCB2E7F7E1E4857000000 /* ICursorControl.h */,
+				A05FCB2E7FCA5A6721000000 /* IDummyTransformationSceneNode.h */,
+				A05FCB2E7F41F274BC000000 /* IDynamicMeshBuffer.h */,
+				A05FCB2E7F145C1D19000000 /* IEventReceiver.h */,
+				A05FCB2E7F3C746496000000 /* IFileArchive.h */,
+				A05FCB2E7F2E8F8EFE000000 /* IFileList.h */,
+				A05FCB2E7FEE8CCECF000000 /* IFileSystem.h */,
+				A05FCB2E7F4D42984A000000 /* IGeometryCreator.h */,
+				A05FCB2E7F15448D2F000000 /* IGPUProgrammingServices.h */,
+				A05FCB2E7FA6319CBD000000 /* IGUIButton.h */,
+				A05FCB2E7FAC32F0CE000000 /* IGUICheckBox.h */,
+				A05FCB2E7FA0BA57B0000000 /* IGUIColorSelectDialog.h */,
+				A05FCB2E7FCB088808000000 /* IGUIComboBox.h */,
+				A05FCB2E7F134FA497000000 /* IGUIContextMenu.h */,
+				A05FCB2E7FB041134A000000 /* IGUIEditBox.h */,
+				A05FCB2E7F0FE96405000000 /* IGUIElement.h */,
+				A05FCB2E7FBE00EC19000000 /* IGUIElementFactory.h */,
+				A05FCB2E7FB3CB6DDC000000 /* IGUIEnvironment.h */,
+				A05FCB2E7F67F97C19000000 /* IGUIFileOpenDialog.h */,
+				A05FCB2E7F3A9A7EDA000000 /* IGUIFont.h */,
+				A05FCB2E7FD715B849000000 /* IGUIFontBitmap.h */,
+				A05FCB2E7FB3420A64000000 /* IGUIImage.h */,
+				A05FCB2E7F3EBEC682000000 /* IGUIImageList.h */,
+				A05FCB2E7F700D3D58000000 /* IGUIInOutFader.h */,
+				A05FCB2E7FD6844D36000000 /* IGUIListBox.h */,
+				A05FCB2E7F12C9D80A000000 /* IGUIMeshViewer.h */,
+				A05FCB2E7F0E44E0EF000000 /* IGUIScrollBar.h */,
+				A05FCB2E7F508EC488000000 /* IGUISkin.h */,
+				A05FCB2E7FA0502C12000000 /* IGUISpinBox.h */,
+				A05FCB2E7F9D168BCC000000 /* IGUISpriteBank.h */,
+				A05FCB2E7F55347B66000000 /* IGUIStaticText.h */,
+				A05FCB2E7F218983B3000000 /* IGUITabControl.h */,
+				A05FCB2E7FE4BCCC17000000 /* IGUITable.h */,
+				A05FCB2E7F06A8ACC4000000 /* IGUIToolbar.h */,
+				A05FCB2E7F2CAFA44E000000 /* IGUITreeView.h */,
+				A05FCB2E7FA5C119FB000000 /* IGUIWindow.h */,
+				A05FCB2E7FB2586D6B000000 /* IImage.h */,
+				A05FCB2E7FF9D8CBFE000000 /* IImageLoader.h */,
+				A05FCB2E7F1DC0A85E000000 /* IImageWriter.h */,
+				A05FCB2E7F0FF7F162000000 /* IIndexBuffer.h */,
+				A05FCB2E7FD0C7DC7B000000 /* ILightManager.h */,
+				A05FCB2E7FD9B6841C000000 /* ILightSceneNode.h */,
+				A05FCB2E7F44634974000000 /* ILogger.h */,
+				A05FCB2E7F680917CE000000 /* IMaterialRenderer.h */,
+				A05FCB2E7F3C4674AC000000 /* IMaterialRendererServices.h */,
+				A05FCB2E7FDA9F3911000000 /* IMesh.h */,
+				A05FCB2E7F6B23D011000000 /* IMeshBuffer.h */,
+				A05FCB2E7F3F5B0045000000 /* IMeshCache.h */,
+				A05FCB2E7F33E5C324000000 /* IMeshLoader.h */,
+				A05FCB2E7FAA7E5EB1000000 /* IMeshManipulator.h */,
+				A05FCB2E7F5A1D11D1000000 /* IMeshSceneNode.h */,
+				A05FCB2E7F57CD9F84000000 /* IMeshWriter.h */,
+				A05FCB2E7F4854ED50000000 /* IMetaTriangleSelector.h */,
+				A05FCB2E7F0139036C000000 /* IOSOperator.h */,
+				A05FCB2E7F3EF10022000000 /* IParticleAffector.h */,
+				A05FCB2E7F61D08B9A000000 /* IParticleAnimatedMeshSceneNodeEmitter.h */,
+				A05FCB2E7F36A3BEC9000000 /* IParticleAttractionAffector.h */,
+				A05FCB2E7F893C2CED000000 /* IParticleBoxEmitter.h */,
+				A05FCB2E7F623E3462000000 /* IParticleCylinderEmitter.h */,
+				A05FCB2E7F90E13B78000000 /* IParticleEmitter.h */,
+				A05FCB2E7F9696F214000000 /* IParticleFadeOutAffector.h */,
+				A05FCB2E7F1DCC6210000000 /* IParticleGravityAffector.h */,
+				A05FCB2E7F3DAA382B000000 /* IParticleMeshEmitter.h */,
+				A05FCB2E7F283EFF48000000 /* IParticleRingEmitter.h */,
+				A05FCB2E7F21EFDA20000000 /* IParticleRotationAffector.h */,
+				A05FCB2E7F8DF3DE4B000000 /* IParticleSphereEmitter.h */,
+				A05FCB2E7FD6FF7309000000 /* IParticleSystemSceneNode.h */,
+				A05FCB2E7FA4313E5F000000 /* IQ3LevelMesh.h */,
+				A05FCB2E7FCA10C3EB000000 /* IQ3Shader.h */,
+				A05FCB2E7FCCFE1B85000000 /* IRandomizer.h */,
+				A05FCB2E7F9B1B7CF6000000 /* IReadFile.h */,
+				A05FCB2E7F03DDF2E7000000 /* IReferenceCounted.h */,
+				A05FCB2E7F13F9435B000000 /* irrAllocator.h */,
+				A05FCB2E7FCF547B29000000 /* irrArray.h */,
+				A05FCB2E7FB0B2F705000000 /* IrrCompileConfig.h */,
+				A05FCB2E7F050D24A2000000 /* irrlicht.h */,
+				A05FCB2E7F3B726778000000 /* IrrlichtDevice.h */,
+				A05FCB2E7F5B07D742000000 /* irrList.h */,
+				A05FCB2E7F979F46EC000000 /* irrMap.h */,
+				A05FCB2E7F5C4C3B2C000000 /* irrMath.h */,
+				A05FCB2E7F616315FD000000 /* irrpack.h */,
+				A05FCB2E7FD3491375000000 /* irrString.h */,
+				A05FCB2E7FC8425949000000 /* irrTypes.h */,
+				A05FCB2E7F61C6AB56000000 /* irrunpack.h */,
+				A05FCB2E7F983FAEE7000000 /* irrXML.h */,
+				A05FCB2E7F8D8559D7000000 /* ISceneCollisionManager.h */,
+				A05FCB2E7FFF9B7A2F000000 /* ISceneLoader.h */,
+				A05FCB2E7F84717DC5000000 /* ISceneManager.h */,
+				A05FCB2E7FA85008DE000000 /* ISceneNode.h */,
+				A05FCB2E7F00DBF205000000 /* ISceneNodeAnimator.h */,
+				A05FCB2E7F7412D8F3000000 /* ISceneNodeAnimatorCameraFPS.h */,
+				A05FCB2E7F196A4446000000 /* ISceneNodeAnimatorCameraMaya.h */,
+				A05FCB2E7FA482CA02000000 /* ISceneNodeAnimatorCollisionResponse.h */,
+				A05FCB2E7F1FB29E19000000 /* ISceneNodeAnimatorFactory.h */,
+				A05FCB2E7F5578D120000000 /* ISceneNodeFactory.h */,
+				A05FCB2E7F186ECF63000000 /* ISceneUserDataSerializer.h */,
+				A05FCB2E7F69F634CE000000 /* IShaderConstantSetCallBack.h */,
+				A05FCB2E7FC09E6764000000 /* IShadowVolumeSceneNode.h */,
+				A05FCB2E7FBEA507ED000000 /* ISkinnedMesh.h */,
+				A05FCB2E7F42039A1D000000 /* ITerrainSceneNode.h */,
+				A05FCB2E7FD3FFDA91000000 /* ITextSceneNode.h */,
+				A05FCB2E7F75B8CBAB000000 /* ITexture.h */,
+				A05FCB2E7FF211F8D5000000 /* ITimer.h */,
+				A05FCB2E7F3EA4338B000000 /* ITriangleSelector.h */,
+				A05FCB2E7F2A0A3248000000 /* IVertexBuffer.h */,
+				A05FCB2E7F06CECDF3000000 /* IVideoDriver.h */,
+				A05FCB2E7FE8FDA40C000000 /* IVideoModeList.h */,
+				A05FCB2E7F115CDFB6000000 /* IVolumeLightSceneNode.h */,
+				A05FCB2E7FFE918EEB000000 /* IWriteFile.h */,
+				A05FCB2E7FB24050EA000000 /* IXMLReader.h */,
+				A05FCB2E7F77DF709A000000 /* IXMLWriter.h */,
+				A05FCB2E7F6B805300000000 /* Keycodes.h */,
+				A05FCB2E7FEBD10F3F000000 /* line2d.h */,
+				A05FCB2E7FEBD1839E000000 /* line3d.h */,
+				A05FCB2E7F3A30784E000000 /* matrix4.h */,
+				A05FCB2E7FA70201FE000000 /* path.h */,
+				A05FCB2E7F7969E328000000 /* plane3d.h */,
+				A05FCB2E7F64B18E74000000 /* position2d.h */,
+				A05FCB2E7FDF8D3B77000000 /* quaternion.h */,
+				A05FCB2E7FAA9C83FD000000 /* rect.h */,
+				A05FCB2E7F89245F23000000 /* S3DVertex.h */,
+				A05FCB2E7FCE9278FE000000 /* SAnimatedMesh.h */,
+				A05FCB2E7F16887571000000 /* SceneParameters.h */,
+				A05FCB2E7F87C75229000000 /* SColor.h */,
+				A05FCB2E7F0907CD33000000 /* SExposedVideoData.h */,
+				A05FCB2E7F56822938000000 /* SIrrCreationParameters.h */,
+				A05FCB2E7FB53A114B000000 /* SKeyMap.h */,
+				A05FCB2E7F5958B71C000000 /* SLight.h */,
+				A05FCB2E7F549B5855000000 /* SMaterial.h */,
+				A05FCB2E7FDA70B990000000 /* SMaterialLayer.h */,
+				A05FCB2E7FEB9D899B000000 /* SMesh.h */,
+				A05FCB2E7FBC42111B000000 /* SMeshBuffer.h */,
+				A05FCB2E7F5C27A721000000 /* SMeshBufferLightMap.h */,
+				A05FCB2E7FE50FCB69000000 /* SMeshBufferTangents.h */,
+				A05FCB2E7F6B8785F4000000 /* SParticle.h */,
+				A05FCB2E7F93310700000000 /* SSharedMeshBuffer.h */,
+				A05FCB2E7F42928918000000 /* SSkinMeshBuffer.h */,
+				A05FCB2E7FADDF40B4000000 /* SVertexIndex.h */,
+				A05FCB2E7FF0722690000000 /* SVertexManipulator.h */,
+				A05FCB2E7FC31E0E63000000 /* SViewFrustum.h */,
+				A05FCB2E7F3673EC32000000 /* triangle3d.h */,
+				A05FCB2E7F8146254E000000 /* vector2d.h */,
+				A05FCB2E7F814699AD000000 /* vector3d.h */,
+			);
+			name = include;
+			path = ../externs/irrlicht/1.8.4/include;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7F6542540E280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F6542540E000000 /* libmesh_misc.framework.a */,
+				A05FCB2E7F6542540E000100 /* libmesh_misc.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7F681C2CE8000000 /* hxx */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7FD93CCD9F000000 /* register.cpp */,
+			);
+			name = hxx;
+			path = ../generated/hxx;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7F8A3C2298280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F8A3C2298000000 /* libmath.framework.a */,
+				A05FCB2E7F8A3C2298000100 /* libmath.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7F8BE388C6000000 /* irrlicht */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F024C790D000000 /* IrrlichtLoad.cpp */,
+				A05FCB2E7FD095CA52000000 /* IrrlichtLoad.h */,
+				A05FCB2E7FA7503BB1000000 /* IrrlichtThread.cpp */,
+				A05FCB2E7FEC31E5F6000000 /* IrrlichtThread.h */,
+				A05FCB2E7F9D811BB9000000 /* IrrlichtViewer.cpp */,
+				A05FCB2E7FDBAB27FE000000 /* IrrlichtViewer.h */,
+			);
+			name = irrlicht;
+			path = ../source/enigne/irrlicht;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7FB22D34D3000000 /* externs */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7FDF135105000000 /* irrlicht */,
+			);
+			name = externs;
+			path = ../externs;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7FBC4C136C280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7FBC4C136C000000 /* libpython.framework.a */,
+				A05FCB2E7FBC4C136C000100 /* libpython.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7FCA90681B000000 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F0B480FF2000000 /* enigne */,
+				A05FCB2E7F3534E2DC000000 /* plugin.cpp */,
+			);
+			name = source;
+			path = ../source;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7FDF135105000000 /* irrlicht */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7F390DBF37000000 /* 1.8.4 */,
+			);
+			name = irrlicht;
+			path = ../externs/irrlicht;
+			sourceTree = SOURCE_ROOT;
+		};
+		A05FCB2E7FEBA5917E280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7FEBA5917E000000 /* libcrypt.framework.a */,
+				A05FCB2E7FEBA5917E000100 /* libcrypt.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7FF470FF41280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7FF470FF41000000 /* libcinema.framework.a */,
+				A05FCB2E7FF470FF41000100 /* libcinema.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A05FCB2E7FF4AB3A6F280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A05FCB2E7FF4AB3A6F000000 /* libcore.framework.a */,
+				A05FCB2E7FF4AB3A6F000100 /* libcore.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A05FCB2E7F000000002D0000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A08C5CDEA35FCB2E7F000000 /* c4dirrlichtdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05FCB2E7F00000000460000 /* Build configuration list for PBXNativeTarget "c4dirrlichtdemo" */;
+			buildPhases = (
+				A05FCB2E7F00000000690000 /* Run Source Processor */,
+				A05FCB2E7F00000000320000 /* Sources */,
+				A05FCB2E7F000000000F0000 /* Frameworks */,
+				A05FCB2E7F000000002D0000 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05FCB2E7FF470FF41370000 /* PBXTargetDependency */,
+				A05FCB2E7FF4AB3A6F370000 /* PBXTargetDependency */,
+				A05FCB2E7FEBA5917E370000 /* PBXTargetDependency */,
+				A05FCB2E7F8A3C2298370000 /* PBXTargetDependency */,
+				A05FCB2E7F6542540E370000 /* PBXTargetDependency */,
+				A05FCB2E7FBC4C136C370000 /* PBXTargetDependency */,
+			);
+			name = c4dirrlichtdemo;
+			productName = c4dirrlichtdemo;
+			productReference = A08C5CDEA35FCB2E7F7B0000 /* c4dirrlichtdemo.xlib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05FCB2E7F000000003C0000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0999;
+			};
+			buildConfigurationList = A05FCB2E7F00000000410000 /* Build configuration list for PBXProject "c4dirrlichtdemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A05FCB2E7F000000001E0000;
+			productRefGroup = A05FCB2E7F00000000230000 /* products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A05FCB2E7FF470FF41280000 /* products */;
+					ProjectRef = A05FCB2E7FF470FF41020000 /* cinema.framework.xcodeproj */;
+				},
+				{
+					ProductGroup = A05FCB2E7FF4AB3A6F280000 /* products */;
+					ProjectRef = A05FCB2E7FF4AB3A6F020000 /* core.framework.xcodeproj */;
+				},
+				{
+					ProductGroup = A05FCB2E7FEBA5917E280000 /* products */;
+					ProjectRef = A05FCB2E7FEBA5917E020000 /* crypt.framework.xcodeproj */;
+				},
+				{
+					ProductGroup = A05FCB2E7F8A3C2298280000 /* products */;
+					ProjectRef = A05FCB2E7F8A3C2298020000 /* math.framework.xcodeproj */;
+				},
+				{
+					ProductGroup = A05FCB2E7F6542540E280000 /* products */;
+					ProjectRef = A05FCB2E7F6542540E020000 /* mesh_misc.framework.xcodeproj */;
+				},
+				{
+					ProductGroup = A05FCB2E7FBC4C136C280000 /* products */;
+					ProjectRef = A05FCB2E7FBC4C136C020000 /* python.framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A08C5CDEA35FCB2E7F000000 /* c4dirrlichtdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A05FCB2E7F6542540E000000 /* libmesh_misc.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmesh_misc.framework.a;
+			remoteRef = A05FCB2E7F6542540E040000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7F6542540E000100 /* libmesh_misc.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmesh_misc.framework_static.a;
+			remoteRef = A05FCB2E7F6542540E040100 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7F8A3C2298000000 /* libmath.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmath.framework.a;
+			remoteRef = A05FCB2E7F8A3C2298040000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7F8A3C2298000100 /* libmath.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmath.framework_static.a;
+			remoteRef = A05FCB2E7F8A3C2298040100 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FBC4C136C000000 /* libpython.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpython.framework.a;
+			remoteRef = A05FCB2E7FBC4C136C040000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FBC4C136C000100 /* libpython.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpython.framework_static.a;
+			remoteRef = A05FCB2E7FBC4C136C040100 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FEBA5917E000000 /* libcrypt.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcrypt.framework.a;
+			remoteRef = A05FCB2E7FEBA5917E040000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FEBA5917E000100 /* libcrypt.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcrypt.framework_static.a;
+			remoteRef = A05FCB2E7FEBA5917E040100 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FF470FF41000000 /* libcinema.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework.a;
+			remoteRef = A05FCB2E7FF470FF41040000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FF470FF41000100 /* libcinema.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework_static.a;
+			remoteRef = A05FCB2E7FF470FF41040100 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FF4AB3A6F000000 /* libcore.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcore.framework.a;
+			remoteRef = A05FCB2E7FF4AB3A6F040000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A05FCB2E7FF4AB3A6F000100 /* libcore.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcore.framework_static.a;
+			remoteRef = A05FCB2E7FF4AB3A6F040100 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A05FCB2E7F00000000690000 /* Run Source Processor */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Source Processor";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ${MAXON_ROOTDIR}frameworks/settings/sourceprocessor/sourceprocessor.py \"$PROJECT_DIR/..\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05FCB2E7F00000000320000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05FCB2E7F024C790D010000 /* IrrlichtLoad.cpp in Sources */,
+				A05FCB2E7F3534E2DC010000 /* plugin.cpp in Sources */,
+				A05FCB2E7F9D811BB9010000 /* IrrlichtViewer.cpp in Sources */,
+				A05FCB2E7FA7503BB1010000 /* IrrlichtThread.cpp in Sources */,
+				A05FCB2E7FD93CCD9F010000 /* register.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05FCB2E7F6542540E370000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesh_misc.framework;
+			targetProxy = A05FCB2E7F6542540E050000 /* PBXContainerItemProxy */;
+		};
+		A05FCB2E7F8A3C2298370000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = math.framework;
+			targetProxy = A05FCB2E7F8A3C2298050000 /* PBXContainerItemProxy */;
+		};
+		A05FCB2E7FBC4C136C370000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = python.framework;
+			targetProxy = A05FCB2E7FBC4C136C050000 /* PBXContainerItemProxy */;
+		};
+		A05FCB2E7FEBA5917E370000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = crypt.framework;
+			targetProxy = A05FCB2E7FEBA5917E050000 /* PBXContainerItemProxy */;
+		};
+		A05FCB2E7FF470FF41370000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cinema.framework;
+			targetProxy = A05FCB2E7FF470FF41050000 /* PBXContainerItemProxy */;
+		};
+		A05FCB2E7FF4AB3A6F370000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = core.framework;
+			targetProxy = A05FCB2E7FF4AB3A6F050000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A05FCB2E7F000000004B0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05FCB2E7F00000000000000 /* debugbase.xcconfig */;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(GCC_PREPROCESSOR_DEFINITIONS)",
+					USE_API_MAXON,
+					PRIVATE_MODULE_net_aknavj_c4dirl,
+					"MAXON_MODULE_ID=\\\"net.aknavj.c4dirl\\\"",
+				);
+				INSTALL_PATH = /..;
+				MAXON_ROOTDIR = ../../../;
+				USER_HEADER_SEARCH_PATHS = "../externs ../externs/irrlicht ../externs/irrlicht/1.8.4 ../externs/irrlicht/1.8.4/include ../generated/hxx ../source ../source/enigne ../source/enigne/irrlicht $(MAXON_ROOTDIR)frameworks/core.framework/source/** $(MAXON_ROOTDIR)frameworks/core.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(MAXON_ROOTDIR)frameworks/cinema.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/crypt.framework/source/** $(MAXON_ROOTDIR)frameworks/crypt.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/math.framework/source/** $(MAXON_ROOTDIR)frameworks/math.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/mesh_misc.framework/source/** $(MAXON_ROOTDIR)frameworks/mesh_misc.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/python.framework/source/** $(MAXON_ROOTDIR)frameworks/python.framework/generated/hxx $(inherited)";
+			};
+			name = Debug;
+		};
+		A05FCB2E7F00000000500000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05FCB2E7F00000000050000 /* releasebase.xcconfig */;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(GCC_PREPROCESSOR_DEFINITIONS)",
+					USE_API_MAXON,
+					PRIVATE_MODULE_net_aknavj_c4dirl,
+					"MAXON_MODULE_ID=\\\"net.aknavj.c4dirl\\\"",
+				);
+				INSTALL_PATH = /..;
+				MAXON_ROOTDIR = ../../../;
+				USER_HEADER_SEARCH_PATHS = "../externs ../externs/irrlicht ../externs/irrlicht/1.8.4 ../externs/irrlicht/1.8.4/include ../generated/hxx ../source ../source/enigne ../source/enigne/irrlicht $(MAXON_ROOTDIR)frameworks/core.framework/source/** $(MAXON_ROOTDIR)frameworks/core.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(MAXON_ROOTDIR)frameworks/cinema.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/crypt.framework/source/** $(MAXON_ROOTDIR)frameworks/crypt.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/math.framework/source/** $(MAXON_ROOTDIR)frameworks/math.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/mesh_misc.framework/source/** $(MAXON_ROOTDIR)frameworks/mesh_misc.framework/generated/hxx $(MAXON_ROOTDIR)frameworks/python.framework/source/** $(MAXON_ROOTDIR)frameworks/python.framework/generated/hxx $(inherited)";
+			};
+			name = Release;
+		};
+		A05FCB2E7F000000005A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_EXTENSION = xlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		A05FCB2E7F000000005F0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_EXTENSION = xlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05FCB2E7F00000000410000 /* Build configuration list for PBXProject "c4dirrlichtdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05FCB2E7F000000004B0000 /* Debug */,
+				A05FCB2E7F00000000500000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A05FCB2E7F00000000460000 /* Build configuration list for PBXNativeTarget "c4dirrlichtdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05FCB2E7F000000005A0000 /* Debug */,
+				A05FCB2E7F000000005F0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05FCB2E7F000000003C0000 /* Project object */;
+}

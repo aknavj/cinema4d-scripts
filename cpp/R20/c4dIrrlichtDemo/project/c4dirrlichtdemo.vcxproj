@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A9B88EBD-B6D5-8D7B-0009-38CB8C5CDEA3}</ProjectGuid>
+    <RootNamespace>maxon</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="./projectsettings.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\settings\DebugWin64.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\cinema.framework\project\cinema.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\mesh_misc.framework\project\mesh_misc.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\math.framework\project\math.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\crypt.framework\project\crypt.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\python.framework\project\python.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\core.framework\project\core.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\settings\sourceprocessor.buildevent" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\settings\ReleaseWin64.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\cinema.framework\project\cinema.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\mesh_misc.framework\project\mesh_misc.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\math.framework\project\math.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\crypt.framework\project\crypt.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\python.framework\project\python.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\core.framework\project\core.framework.includes.props" />
+    <Import Project="$(MAXON_ROOTDIR)\frameworks\settings\sourceprocessor.buildevent" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.xdl64</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.xdl64</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../externs;../externs/irrlicht;../externs/irrlicht/1.8.4;../externs/irrlicht/1.8.4/include;../generated/hxx;../source;../source/enigne;../source/enigne/irrlicht;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAXON_MODULE_ID="net.aknavj.c4dirl";PRIVATE_MODULE_net_aknavj_c4dirl;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <IgnoreSpecificDefaultLibraries />
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>../externs/irrlicht/1.8.4/lib/Win64-visualStudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>irrlicht.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles />
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../externs;../externs/irrlicht;../externs/irrlicht/1.8.4;../externs/irrlicht/1.8.4/include;../generated/hxx;../source;../source/enigne;../source/enigne/irrlicht;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAXON_MODULE_ID="net.aknavj.c4dirl";PRIVATE_MODULE_net_aknavj_c4dirl;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <IgnoreSpecificDefaultLibraries />
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles />
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(MAXON_ROOTDIR)\frameworks\cinema.framework\project\cinema.framework.vcxproj">
+      <Project>{69BF9B7D-7EB2-7FC5-0009-38CB8C5CDEA3}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="$(MAXON_ROOTDIR)\frameworks\mesh_misc.framework\project\mesh_misc.framework.vcxproj">
+      <Project>{3A883A00-61CC-D50A-0009-38CB8C5CDEA3}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="$(MAXON_ROOTDIR)\frameworks\math.framework\project\math.framework.vcxproj">
+      <Project>{96B02211-112B-F41C-0009-38CB8C5CDEA3}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="$(MAXON_ROOTDIR)\frameworks\crypt.framework\project\crypt.framework.vcxproj">
+      <Project>{A327271A-42AF-F07A-0009-38CB8C5CDEA3}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="$(MAXON_ROOTDIR)\frameworks\python.framework\project\python.framework.vcxproj">
+      <Project>{BCEDCE2F-468D-93F0-0009-38CB8C5CDEA3}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="$(MAXON_ROOTDIR)\frameworks\core.framework\project\core.framework.vcxproj">
+      <Project>{F25E1DE5-7B9B-0BF3-0009-38CB8C5CDEA3}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\generated\hxx\register.cpp" />
+    <ClCompile Include="..\source\enigne\irrlicht\IrrlichtLoad.cpp" />
+    <ClCompile Include="..\source\enigne\irrlicht\IrrlichtThread.cpp" />
+    <ClCompile Include="..\source\enigne\irrlicht\IrrlichtViewer.cpp" />
+    <ClCompile Include="..\source\plugin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\externs\irrlicht\1.8.4\bin\Win64-VisualStudio\irrlicht.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CDynamicMeshBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CIndexBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CMeshBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CVertexBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EAttributes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ECullingTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDebugSceneTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDeviceTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDriverFeatures.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDriverTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EGUIAlignment.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EGUIElementTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EHardwareBufferFlags.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMaterialFlags.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMaterialTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMeshWriterEnums.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMessageBoxFlags.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EPrimitiveTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ESceneNodeAnimatorTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ESceneNodeTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EShaderTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ETerrainElements.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMesh.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMeshMD2.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMeshMD3.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMeshSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAttributeExchangingObject.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAttributes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IBillboardSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IBillboardTextSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IBoneSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ICameraSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IColladaMeshWriter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ICursorControl.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IDummyTransformationSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IDynamicMeshBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IEventReceiver.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IFileArchive.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IFileList.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IFileSystem.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGPUProgrammingServices.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIButton.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUICheckBox.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIColorSelectDialog.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIComboBox.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIContextMenu.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIEditBox.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIElement.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIElementFactory.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIEnvironment.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIFileOpenDialog.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIFont.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIFontBitmap.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIImage.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIImageList.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIInOutFader.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIListBox.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIMeshViewer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIScrollBar.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUISkin.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUISpinBox.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUISpriteBank.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIStaticText.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUITabControl.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUITable.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIToolbar.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUITreeView.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIWindow.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGeometryCreator.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IImage.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IImageLoader.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IImageWriter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IIndexBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ILightManager.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ILightSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ILogger.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMaterialRenderer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMaterialRendererServices.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMesh.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshCache.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshLoader.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshManipulator.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshWriter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMetaTriangleSelector.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IOSOperator.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleAffector.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleAnimatedMeshSceneNodeEmitter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleAttractionAffector.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleBoxEmitter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleCylinderEmitter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleEmitter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleFadeOutAffector.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleGravityAffector.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleMeshEmitter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleRingEmitter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleRotationAffector.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleSphereEmitter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleSystemSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IQ3LevelMesh.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IQ3Shader.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IRandomizer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IReadFile.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IReferenceCounted.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneCollisionManager.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneLoader.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneManager.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimator.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorCameraFPS.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorCameraMaya.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorCollisionResponse.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorFactory.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeFactory.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneUserDataSerializer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IShaderConstantSetCallBack.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IShadowVolumeSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISkinnedMesh.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITerrainSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITextSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITexture.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITimer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITriangleSelector.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVertexBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVideoDriver.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVideoModeList.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVolumeLightSceneNode.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IWriteFile.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IXMLReader.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IXMLWriter.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IrrCompileConfig.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IrrlichtDevice.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\Keycodes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\S3DVertex.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SAnimatedMesh.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SColor.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SExposedVideoData.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SIrrCreationParameters.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SKeyMap.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SLight.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMaterial.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMaterialLayer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMesh.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMeshBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMeshBufferLightMap.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMeshBufferTangents.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SParticle.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SSharedMeshBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SSkinMeshBuffer.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SVertexIndex.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SVertexManipulator.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SViewFrustum.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SceneParameters.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\aabbox3d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\coreutil.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\dimension2d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\driverChoice.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\fast_atof.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\heapsort.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrAllocator.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrArray.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrList.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrMap.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrMath.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrString.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrTypes.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrXML.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrlicht.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrpack.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrunpack.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\line2d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\line3d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\matrix4.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\path.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\plane3d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\position2d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\quaternion.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\rect.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\triangle3d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\vector2d.h" />
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\vector3d.h" />
+    <ClInclude Include="..\source\enigne\irrlicht\IrrlichtLoad.h" />
+    <ClInclude Include="..\source\enigne\irrlicht\IrrlichtThread.h" />
+    <ClInclude Include="..\source\enigne\irrlicht\IrrlichtViewer.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Target Name="AfterClean">
+    <RemoveDir Directories="$(ProjectDir)..\generated" ContinueOnError="true" />
+    <Message Text="Removing generated folder: $(ProjectDir)..\generated" Importance="high" ContinueOnError="true" />
+  </Target>
+</Project>

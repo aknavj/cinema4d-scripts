@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="externs">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-0000-0015B22D34D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="externs\irrlicht">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-98F1-D2AAEF1AD432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="externs\irrlicht\1.8.4">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-8F18-27B751698097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="externs\irrlicht\1.8.4\bin">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-72C3-EF758924AC42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="externs\irrlicht\1.8.4\bin\Win64-VisualStudio">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-5953-15615510FAA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="externs\irrlicht\1.8.4\include">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-87AC-B98F4CFC6E63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-0000-5284111A998F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated\hxx">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-8ACC-618A6830A19B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-0000-0000CA90681B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\enigne">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-1194-B70557C07A5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\enigne\irrlicht">
+      <UniqueIdentifier>{A9B88EBD-B6D5-8D7B-DEB3-7412428F0C26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\generated\hxx\register.cpp">
+      <Filter>generated\hxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\enigne\irrlicht\IrrlichtLoad.cpp">
+      <Filter>source\enigne\irrlicht</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\enigne\irrlicht\IrrlichtThread.cpp">
+      <Filter>source\enigne\irrlicht</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\enigne\irrlicht\IrrlichtViewer.cpp">
+      <Filter>source\enigne\irrlicht</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\plugin.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CDynamicMeshBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CIndexBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CMeshBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\CVertexBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EAttributes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ECullingTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDebugSceneTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDeviceTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDriverFeatures.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EDriverTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EGUIAlignment.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EGUIElementTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EHardwareBufferFlags.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMaterialFlags.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMaterialTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMeshWriterEnums.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EMessageBoxFlags.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EPrimitiveTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ESceneNodeAnimatorTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ESceneNodeTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\EShaderTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ETerrainElements.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMesh.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMeshMD2.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMeshMD3.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAnimatedMeshSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAttributeExchangingObject.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IAttributes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IBillboardSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IBillboardTextSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IBoneSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ICameraSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IColladaMeshWriter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ICursorControl.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IDummyTransformationSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IDynamicMeshBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IEventReceiver.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IFileArchive.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IFileList.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IFileSystem.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGPUProgrammingServices.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIButton.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUICheckBox.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIColorSelectDialog.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIComboBox.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIContextMenu.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIEditBox.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIElement.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIElementFactory.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIEnvironment.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIFileOpenDialog.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIFont.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIFontBitmap.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIImage.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIImageList.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIInOutFader.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIListBox.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIMeshViewer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIScrollBar.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUISkin.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUISpinBox.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUISpriteBank.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIStaticText.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUITabControl.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUITable.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIToolbar.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUITreeView.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGUIWindow.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IGeometryCreator.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IImage.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IImageLoader.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IImageWriter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IIndexBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ILightManager.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ILightSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ILogger.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMaterialRenderer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMaterialRendererServices.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMesh.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshCache.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshLoader.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshManipulator.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMeshWriter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IMetaTriangleSelector.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IOSOperator.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleAffector.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleAnimatedMeshSceneNodeEmitter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleAttractionAffector.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleBoxEmitter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleCylinderEmitter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleEmitter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleFadeOutAffector.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleGravityAffector.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleMeshEmitter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleRingEmitter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleRotationAffector.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleSphereEmitter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IParticleSystemSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IQ3LevelMesh.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IQ3Shader.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IRandomizer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IReadFile.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IReferenceCounted.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneCollisionManager.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneLoader.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneManager.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimator.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorCameraFPS.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorCameraMaya.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorCollisionResponse.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeAnimatorFactory.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneNodeFactory.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISceneUserDataSerializer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IShaderConstantSetCallBack.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IShadowVolumeSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ISkinnedMesh.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITerrainSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITextSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITexture.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITimer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\ITriangleSelector.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVertexBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVideoDriver.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVideoModeList.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IVolumeLightSceneNode.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IWriteFile.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IXMLReader.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IXMLWriter.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IrrCompileConfig.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\IrrlichtDevice.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\Keycodes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\S3DVertex.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SAnimatedMesh.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SColor.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SExposedVideoData.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SIrrCreationParameters.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SKeyMap.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SLight.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMaterial.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMaterialLayer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMesh.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMeshBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMeshBufferLightMap.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SMeshBufferTangents.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SParticle.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SSharedMeshBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SSkinMeshBuffer.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SVertexIndex.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SVertexManipulator.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SViewFrustum.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\SceneParameters.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\aabbox3d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\coreutil.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\dimension2d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\driverChoice.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\fast_atof.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\heapsort.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrAllocator.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrArray.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrList.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrMap.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrMath.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrString.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrTypes.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrXML.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrlicht.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrpack.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\irrunpack.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\line2d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\line3d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\matrix4.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\path.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\plane3d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\position2d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\quaternion.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\rect.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\triangle3d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\vector2d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externs\irrlicht\1.8.4\include\vector3d.h">
+      <Filter>externs\irrlicht\1.8.4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\enigne\irrlicht\IrrlichtLoad.h">
+      <Filter>source\enigne\irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\enigne\irrlicht\IrrlichtThread.h">
+      <Filter>source\enigne\irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\enigne\irrlicht\IrrlichtViewer.h">
+      <Filter>source\enigne\irrlicht</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\externs\irrlicht\1.8.4\bin\Win64-VisualStudio\irrlicht.ico">
+      <Filter>externs\irrlicht\1.8.4\bin\Win64-VisualStudio</Filter>
+    </None>
+  </ItemGroup>
+</Project>
